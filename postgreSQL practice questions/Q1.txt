@@ -1,0 +1,7 @@
+Q1) Combine two tables (leetcode 175)
+
+Write your PostgreSQL query statement below
+select firstName,lastName,city,state
+from Person as p
+left join Address as a
+on p.personId=a.personId; 
