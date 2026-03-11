@@ -1,0 +1,8 @@
+Q2) Employee earning more than the manager  (leetcode181)
+
+-- Write your PostgreSQL query statement below
+select e.name as Employee
+from Employee e
+join Employee as m
+on e.ManagerId=m.id
+where e.salary>m.salary;
