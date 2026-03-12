@@ -1,4 +1,4 @@
-Q1) Combine two tables (leetcode 175)
+Q1) Combine two tables (leetcode 175)    
 
 Write your PostgreSQL query statement below
 select firstName,lastName,city,state
