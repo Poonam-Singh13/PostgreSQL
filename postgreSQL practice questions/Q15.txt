@@ -1,0 +1,6 @@
+Q15) Replace employee id with unique identifiers (leetocde1378)
+
+Write your PostgreSQL query statement below
+select u.unique_id,e.name from Employees as e
+left join EmployeeUNI as u
+on e.id=u.id
